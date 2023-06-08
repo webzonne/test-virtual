@@ -1,14 +1,16 @@
-import Layout from '../components/Layout'
-
 export default function Home() {
 
   return (
     <>
-     <Layout>
+     <Head>
+        <title>e-commerce</title>
+        <meta name="description" content="tienda virtual" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className='text-blue-900'>
-        BIENVENIDO
+        <h1 className='text-center'>BIENVENIDO</h1>
       </div>
-     </Layout>
     </>
   )
 }
