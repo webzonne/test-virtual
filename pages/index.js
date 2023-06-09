@@ -30,8 +30,11 @@ export default function Home() {
 
       <div className='p-8'>
         <h1 className='text-center mb-8'>REGISTRARSE</h1>
+        <div className='text-center mb-8'>
+          <button className='border border-gray-500 px-4 py-2' onClick={() => signIn('github')}>Registrarse con Github</button>
+        </div>
         <div className='text-center'>
-          <button className='border border-gray-500 px-4 py-2' onClick={() => signIn()}>Registrarse con Github</button>
+          <button className='border border-gray-500 px-4 py-2' onClick={() => signIn('google')}>Registrarse con Google</button>
         </div>
         
       </div>
